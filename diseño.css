@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('depositivomadera.jpg'); /* Reemplaza 'background.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: #A0522D; /* Fondo azul */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.seccion {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* Cambio de color a negro para el contenido de las secciones */
+}
+
+/* Estilos para el menú */
+nav {
+    background-color: #333; /* Color de fondo del menú */
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff; /* Color de los enlaces del menú */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #007BFF; /* Color al pasar el mouse sobre los enlaces */
+}
